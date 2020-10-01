@@ -8,7 +8,7 @@ void swap(int &a,int &b){
 }
 
 int partition(int *A,int p,int r)
-//partition the array into 3 parts, greater than pivot , less than pivot and equal to pivot
+//Partationed the array into 3 parts, greater than pivot , less than pivot and equal to pivot
 //returns the index of pivot
 {
     int x = A[r];//pivot
